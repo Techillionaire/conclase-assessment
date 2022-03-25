@@ -1,10 +1,9 @@
-import JobCard from "./components/cards/JobCard";
-import Navbar from "./components/navbar";
-import SearchBar from "./components/Search";
+import { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/layout";
 import Homepage from "./pages/homepage";
-import TodosPage from "./pages/todos";
+
+const TodosPage = lazy(() => import("./pages/todos"));
 
 function App() {
   return (

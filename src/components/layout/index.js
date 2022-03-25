@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 import Footer from "../Footer";
@@ -10,7 +10,11 @@ const Layout = () => {
       <Container>
         <Navbar />
         <main>
-          <Outlet />
+          <Suspense
+            fallback={<p style={{ textAlign: "center" }}>Loading...</p>}
+          >
+            <Outlet />
+          </Suspense>
         </main>
         <Footer />
       </Container>
