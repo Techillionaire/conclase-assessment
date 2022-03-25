@@ -8,7 +8,7 @@ const TestimonialSection = () => {
     <Section>
       <h1>what are our customers saying</h1>
       <div className="customer">
-        <img src={image} loading="lazy" />
+        <img src={image} />
 
         <div className="details">
           <p className="comment">
@@ -126,7 +126,7 @@ const Section = styled.section`
 
     .comment {
       font-size: 16px;
-    line-height: 28px;
+      line-height: 28px;
     }
     .name {
       font-size: 21px;

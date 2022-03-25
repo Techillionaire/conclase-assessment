@@ -25,7 +25,7 @@ const InfoSection = () => {
         </div>
       </div>
       <div className="image">
-        <img src={groupedIcon} loading="lazy" />
+        <img src={groupedIcon} />
       </div>
     </Section>
   );

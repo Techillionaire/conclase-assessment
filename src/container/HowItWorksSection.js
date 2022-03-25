@@ -7,7 +7,7 @@ const HowItWorksSection = () => {
   return (
     <Section>
       <div>
-        <img src={GroupImage} loading="lazy" />
+        <img src={GroupImage} />
       </div>
       <div className="details">
         <h1 className="title">How it works</h1>
