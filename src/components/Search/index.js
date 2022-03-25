@@ -22,6 +22,7 @@ export default SearchBar;
 
 const Form = styled.form`
   width: 100%;
+  margin-top: 32px;
   height: 45px;
   border-radius: 30px;
   border: 1px solid #e5e5e5;
@@ -43,7 +44,7 @@ const Form = styled.form`
 
     &::placeholder {
       font-size: 12px;
-      color: #9b9b9b;
+      color: #c4c4c4;
     }
     &:active,
     :focus {
@@ -66,6 +67,7 @@ const Form = styled.form`
     align-items: center;
     padding-left: 12px;
     border-left: solid 1px #e5e5e5;
+    background-color: #ffffff;
 
     p {
       font-size: 12px;

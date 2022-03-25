@@ -1,36 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-   
-@font-face {
-    font-family: "Graphik";
-    font-weight: 400;
-    src: local(""),
-      url("../assets/fonts/Graphik-Regular.woff2") format("woff2"),
-      url("../assets/fonts/Graphik-Regular.woff") format("woff"),
-  }
-@font-face {
-    font-family: "Graphik";
-    font-weight: 500;
-    src: local(""),
-      url("../assets/fonts/Graphik-Medium.woff2") format("woff2"),
-      url("../assets/fonts/Graphik-Medium.woff") format("woff"),
-  }
-
-  @font-face{
-      font-family: 'GTWalsheimPro';
-      font-style: 700;
-      src: local(""), 
-      url("../assets/fonts/GTWalsheimPro-Bold.woff2") format("woff2"),
-      url("../assets/fonts/GTWalsheimPro-Bold.woff") format("woff"),
-  }
-  @font-face{
-      font-family: 'GTWalsheimPro';
-      font-style: 500;
-      src: local(""), 
-      url("../assets/fonts/GTWalsheimPro-Medium.woff2") format("woff2"),
-      url("../assets/fonts/GTWalsheimPro-Medium.woff") format("woff"),
-  }
 
   
 
@@ -43,6 +13,31 @@ export default createGlobalStyle`
   html, body {
       width: 100%;
       max-width: 1400px;
+      
+      
+    }
+    h1,p{
+     font-size: 16px;
+    line-height: 32px;
+      font-family: 'Inter', sans-serif;
+      color: #3F403F;
+
+      font-weight: 400;
+      padding: 0;
+      margin: 0;
+
+    
   }
+
+  section{
+    padding: 0 12px;
+    margin-bottom: 70px;
+
+    @media (min-width: 576px) {
+        padding: 0 32px;
+        margin-bottom:  140px;
+    }
+  }
+
 
 `;
