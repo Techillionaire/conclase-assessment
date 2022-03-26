@@ -84,9 +84,7 @@ const Section = styled.section`
 
   @media (min-width: 576px) {
     h1 {
-      text-align: center;
       font-size: 32px;
-      font-weight: 700;
       margin-bottom: 64px;
     }
   }

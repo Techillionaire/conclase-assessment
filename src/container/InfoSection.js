@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import groupedIcon from "../assets/images/icongroup.png";
 import groupedIconwebp from "../assets/images/icongroup.webp";
 import { ReactComponent as Arrow } from "../assets/icons/right.svg";
 import linkbg from "../assets/icons/link-bg.svg";
@@ -26,10 +25,7 @@ const InfoSection = () => {
         </div>
       </div>
       <div className="image">
-        <picture>
-          <source srcSet={groupedIconwebp} type="image/webp" />
-          <img src={groupedIcon} />
-        </picture>
+        <img src={groupedIconwebp} type="image/webp" />
       </div>
     </Section>
   );
@@ -39,7 +35,6 @@ export default InfoSection;
 
 const Section = styled.section`
   background-color: rgba(6, 148, 42, 0.14);
-  /* height: 700px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -68,7 +63,6 @@ const Section = styled.section`
 
   .link {
     display: flex;
-    /* align-items: center; */
     cursor: pointer;
 
     svg {
@@ -78,7 +72,6 @@ const Section = styled.section`
     }
 
     p {
-      /* display: block; */
       padding-right: 16px;
       background-image: url(${linkbg});
       background-repeat: no-repeat;
@@ -92,7 +85,6 @@ const Section = styled.section`
     height: 700px;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
 
     img {
       width: 458px;
@@ -104,7 +96,6 @@ const Section = styled.section`
 
     h1 {
       font-size: 32px;
-      font-weight: 700;
       margin-bottom: 50px;
       line-height: 54px;
     }

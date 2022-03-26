@@ -60,39 +60,9 @@ const Wrapper = styled.nav`
     display: none;
   }
 
-  .pry_btn {
-    background-color: rgba(6, 148, 42, 0.2);
-    color: #06942a;
-    width: 120px;
-    height: 45px;
-    margin-left: 12px;
-    font-weight: 500;
-    font-size: 16px;
-  }
-
-  button {
-    width: 60px;
-
-    height: 45px;
-    border-radius: 30px;
-    border: none;
-    background-color: #ffff;
-    cursor: pointer;
-
-    &:hover {
-      color: #06942a;
-    }
-  }
-
   @media (min-width: 576px) {
-    background-color: #ffffff;
-    margin-top: 8px;
-    width: 100%;
-    height: 68px;
     padding: 0 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
 
     .logo {
       width: 68px;

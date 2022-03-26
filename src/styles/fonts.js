@@ -15,6 +15,8 @@ export default createGlobalStyle`
   src: local(''),
        url(${InterMid2}) format('woff2'), 
        url(${InterMid}) format('woff'); 
+ font-display: swap;
+    
 }
 @font-face {
   font-family: 'Inter';
@@ -23,6 +25,9 @@ export default createGlobalStyle`
   src: local(''),
        url(${Inter2}) format('woff2'),
        url(${Inter}) format('woff'); 
+
+  font-display: swap;
+
 }
 @font-face {
   font-family: 'Inter';
@@ -31,5 +36,7 @@ export default createGlobalStyle`
   src: local(''),
        url(${InterBold2}) format('woff2'),
        url(${InterBold}) format('woff'); 
+  font-display: swap;
+
 }
 `;

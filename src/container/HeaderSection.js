@@ -49,29 +49,24 @@ export default HeaderSection;
 
 const Section = styled.section`
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   height: 650px;
-  /* justify-content: space-between; */
   width: 100%;
   background: url(${BackgroundMobile});
   background-repeat: no-repeat;
   background-size: cover;
 
   .details {
-    /* padding-top: 32px; */
     width: 100%;
     p {
       font-size: 16px;
       line-height: 32px;
       width: 100%;
       max-width: 620px;
-      /* margin-bottom: 40px; */
     }
     h1 {
       margin-top: -32px;
       font-size: 32px;
-      /* line-height: px; */
       font-weight: 700;
       margin-bottom: 12px;
 
@@ -97,14 +92,10 @@ const Section = styled.section`
   @media (min-width: 576px) {
     padding: 0 32px;
     margin-bottom: 140px;
-    display: flex;
-    align-items: center;
     height: 700px;
     justify-content: space-between;
     width: 100%;
     background: url(${Background});
-    background-repeat: no-repeat;
-    background-size: contain;
 
     .details {
       width: 60%;
@@ -112,26 +103,18 @@ const Section = styled.section`
         width: 100%;
         max-width: 620px;
         line-height: 32px;
-        /* margin-bottom: 40px; */
       }
       h1 {
         margin-top: 0;
-
         font-size: 48px;
         line-height: 55px;
-        font-weight: 700;
         margin-bottom: 32px;
-
-        span {
-          color: #06942a;
-        }
       }
 
       .logo_section {
         margin-top: 32px;
 
         p {
-          font-weight: 500;
           margin-bottom: 24px;
         }
       }
@@ -148,10 +131,10 @@ const LogosWrapper = styled.div`
   display: flex;
   align-items: baseline;
 
-  /* width: 100%; */
   margin: auto 0;
 
   img {
+    max-width: 108px;
     height: 32px;
     margin-right: 24px;
     opacity: 0.5;
@@ -161,12 +144,6 @@ const LogosWrapper = styled.div`
   }
 
   @media (min-width: 576px) {
-    display: flex;
-    align-items: baseline;
-
-    /* width: 100%; */
-    margin: auto 0;
-
     img {
       height: 33px;
       margin-right: 24px;

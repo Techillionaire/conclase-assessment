@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import image from "../assets/images/man3.svg";
+import image from "../assets/images/man3.webp";
 import quote from "../assets/icons/quote.svg";
 
 const TestimonialSection = () => {
@@ -50,12 +50,9 @@ const Section = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* align-items: flex-start; */
-    /* justify-content: flex-start; */
   }
 
   .details {
-    max-width: 660px;
     margin-left: 0;
     padding-top: 38px;
 
@@ -80,13 +77,6 @@ const Section = styled.section`
     color: #9b9b9b;
   }
 
-  /* @media(max-width: 576px){
-    svg{
-      width: 120px;
-      height: 12;
-    }
-  } */
-
   @media (min-width: 576px) {
     img {
       margin-bottom: 0;
@@ -107,7 +97,6 @@ const Section = styled.section`
       margin-bottom: 24px;
     }
     .customer {
-      display: flex;
       align-items: center;
       flex-direction: row;
     }
@@ -115,26 +104,16 @@ const Section = styled.section`
       max-width: 660px;
       margin-left: 52px;
       padding-top: 38px;
-
-      position: relative;
-      &::after {
-        content: url(${quote});
-        position: absolute;
-        top: -1px;
-      }
     }
 
     .comment {
       font-size: 16px;
-      line-height: 28px;
     }
     .name {
       font-size: 21px;
-      font-weight: 500;
     }
     .position {
       font-size: 18px;
-      color: #9b9b9b;
     }
   }
 `;

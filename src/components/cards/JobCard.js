@@ -40,9 +40,7 @@ export default JobCard;
 
 const BadgeWrapper = styled.span`
   font-family: "Inter", sans-serif;
-  /* width: 45px; */
   font-size: 8px;
-  /* height: 25px; */
   padding: 8px;
   background-color: rgba(244, 245, 249, 1);
   border-radius: 30px;
@@ -81,44 +79,29 @@ const CardWrapper = styled.div`
   img {
     height: 24px;
     margin-bottom: 8px;
-    /* text-align: center; */
   }
 
   @media (min-width: 576px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 318px;
     height: 354px;
     padding: 16px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin-right: 16px;
     border-radius: 5px;
 
     .position {
-      font-weight: 500;
       font-size: 18px;
       margin-bottom: 38px;
-    }
-
-    .badge_container {
-      text-align: right;
-      margin-bottom: 48px;
-      align-self: flex-end;
     }
 
     img {
       height: 60px;
 
-      margin-bottom: 8px;
       text-align: center;
     }
   }
 `;
 
 const InfoSection = styled.div`
-  /* padding: 8px; */
   border-top: 1px solid #e5e5e5;
   width: 100%;
 
@@ -137,22 +120,12 @@ const InfoSection = styled.div`
 
   @media (min-width: 576px) {
     padding: 8px;
-    border-top: 1px solid #e5e5e5;
-    width: 100%;
 
     button {
       width: 97px;
       height: 29px;
       border-radius: 30px;
-      color: #06942a;
-      background-color: #ffff;
-      border: none;
-      cursor: pointer;
       font-size: 12px;
-
-      &:hover {
-        background-color: rgba(6, 148, 42, 0.2);
-      }
     }
   }
 `;
@@ -178,9 +151,6 @@ const LocationWrapper = styled.div`
   }
 
   @media (min-width: 576px) {
-    display: flex;
-    align-items: center;
-
     p {
       font-size: 12px;
       padding-left: 8px;

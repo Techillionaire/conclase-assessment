@@ -1,5 +1,4 @@
 import React from "react";
-import GroupImage from "../assets/images/groupimages.svg";
 import GroupImageWebp from "../assets/images/groupimagess.webp";
 import { ReactComponent as Check } from "../assets/icons/check.svg";
 import styled from "styled-components";
@@ -8,10 +7,7 @@ const HowItWorksSection = () => {
   return (
     <Section>
       <div className="image-wrapper">
-        <picture>
-          <source srcSet={GroupImageWebp} type="image/webp" />
-          <img src={GroupImage} />
-        </picture>
+        <img src={GroupImageWebp} />
       </div>
       <div className="details">
         <h1 className="title">How it works</h1>
@@ -57,13 +53,9 @@ const Section = styled.section`
   .image-wrapper {
     margin-top: 32px;
   }
-  div {
-    /* width: 60%; */
-  }
 
   .details {
     max-width: 480px;
-    /* width: 40%; */
   }
 
   img {
@@ -99,20 +91,7 @@ const Section = styled.section`
   }
 
   @media (min-width: 576px) {
-    display: flex;
     flex-direction: row;
-    padding: 0 32px;
-    justify-content: space-around;
-    margin-bottom: 140px;
-
-    div {
-      /* width: 60%; */
-    }
-
-    .details {
-      max-width: 480px;
-      /* width: 40%; */
-    }
 
     img {
       width: 600px;
@@ -121,17 +100,11 @@ const Section = styled.section`
 
     .title {
       font-size: 32px;
-      font-weight: 700;
       margin-bottom: 50px;
     }
     .subtitle {
-      display: flex;
-      align-items: center;
-      margin-bottom: 16px;
-
       h1 {
         font-size: 24px;
-        font-weight: 500;
         padding-left: 16px;
       }
     }

@@ -74,7 +74,6 @@ export default JobsSection;
 
 const Section = styled.section`
   margin-top: 64px;
-  /* height: 500px; */
 
   h1 {
     font-size: 24px;
@@ -91,7 +90,6 @@ const Section = styled.section`
 
     h1 {
       font-size: 32px;
-      font-weight: 700;
       margin-bottom: 56px;
     }
     .controls {
@@ -112,7 +110,6 @@ const CardsWrapper = styled.div`
 
   width: max-content;
   height: 250px;
-  /* scroll-snap-type: x mandatory; */
   scroll-behavior: smooth;
 
   @media (min-width: 576px) {

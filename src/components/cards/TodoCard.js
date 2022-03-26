@@ -82,7 +82,6 @@ const CardWrapper = styled.div`
   .content {
     width: 100%;
     height: 100%;
-    /* background-color: pink; */
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     display: flex;
@@ -96,7 +95,6 @@ const CardWrapper = styled.div`
 
   .task-date {
     display: flex;
-    /* align-items: center; */
   }
   .task-date p {
     padding-right: 16px;
@@ -104,11 +102,7 @@ const CardWrapper = styled.div`
     opacity: 0.4;
   }
 
-  .content-details {
-  }
-
   .content-details p {
     font-size: 12px;
-    /* margin-bottom: 8px; */
   }
 `;

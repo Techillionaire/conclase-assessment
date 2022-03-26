@@ -26,9 +26,7 @@ const Form = styled.form`
   height: 45px;
   border-radius: 30px;
   border: 1px solid #e5e5e5;
-  /* box-shadow: 0 10 30 0 rgba(6, 148, 42, 0.04); */
   display: flex;
-  font-family: "Graphik", Arial, Helvetica, sans-serif;
 
   @media (min-width: 576px) {
     width: 532px;

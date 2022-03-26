@@ -43,7 +43,6 @@ const BannerWrapper = styled.div`
   background-image: url(${bannerImgMobile});
   background-repeat: no-repeat;
 
-  /* background-repeat: no-repeat; */
   align-items: center;
 
   div {

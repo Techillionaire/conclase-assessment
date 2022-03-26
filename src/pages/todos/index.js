@@ -88,10 +88,7 @@ const Wrapper = styled.div`
   }
 
   form {
-    /* padding-left: 20px; */
     height: auto;
-    /* border-radius: 7px; */
-    /* background-color: white; */
     padding-bottom: 32px;
     margin-bottom: 42px;
     width: 100%;
@@ -122,7 +119,6 @@ const Wrapper = styled.div`
   }
 
   input[type="date"] {
-    /* opacity: 0.5; */
     padding-right: 16px;
     background: #dfdfdf;
   }
