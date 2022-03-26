@@ -7,7 +7,7 @@ import styled from "styled-components";
 const HowItWorksSection = () => {
   return (
     <Section>
-      <div>
+      <div className="image-wrapper">
         <picture>
           <source srcSet={GroupImageWebp} type="image/webp" />
           <img src={GroupImage} />
@@ -54,6 +54,9 @@ const Section = styled.section`
   flex-direction: column-reverse;
   justify-content: space-around;
 
+  .image-wrapper {
+    margin-top: 32px;
+  }
   div {
     /* width: 60%; */
   }

@@ -42,7 +42,7 @@ const Section = styled.section`
   /* height: 700px; */
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 32px 12px;
 
@@ -60,6 +60,10 @@ const Section = styled.section`
   }
   p {
     margin-bottom: 24px;
+  }
+
+  .image {
+    margin-top: 32px;
   }
 
   .link {
