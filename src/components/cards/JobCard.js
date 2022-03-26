@@ -77,10 +77,8 @@ const CardWrapper = styled.div`
   }
 
   img {
-    max-width: 60px;
-    height: 34px;
-    /* height: 25px; */
-    aspect-ratio: 16/9;
+    max-width: 82px;
+    height: 32px;
     margin-bottom: 8px;
   }
 
@@ -98,10 +96,7 @@ const CardWrapper = styled.div`
 
     img {
       max-width: 90px;
-      height: 51px;
-      /* height: 25px; */
-      aspect-ratio: 16/9;
-      /* height: 60px; */
+      height: 33px;
 
       text-align: center;
     }

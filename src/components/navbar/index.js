@@ -44,6 +44,7 @@ const Wrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 
   .assessment {
     display: block;

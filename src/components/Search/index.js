@@ -28,11 +28,6 @@ const Form = styled.form`
   border: 1px solid #e5e5e5;
   display: flex;
 
-  @media (min-width: 576px) {
-    width: 532px;
-    height: 48px;
-  }
-
   input {
     width: 60%;
     border-top-left-radius: 30px;
@@ -96,5 +91,10 @@ const Form = styled.form`
     :active {
       background-color: #035317;
     }
+  }
+
+  @media (min-width: 576px) {
+    width: 532px;
+    height: 48px;
   }
 `;
