@@ -81,7 +81,7 @@ const Section = styled.section`
     }
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: 860px) {
     height: 700px;
     flex-direction: row;
     justify-content: space-around;

@@ -77,7 +77,10 @@ const CardWrapper = styled.div`
   }
 
   img {
-    height: 24px;
+    max-width: 60px;
+    height: 34px;
+    /* height: 25px; */
+    aspect-ratio: 16/9;
     margin-bottom: 8px;
   }
 
@@ -94,7 +97,11 @@ const CardWrapper = styled.div`
     }
 
     img {
-      height: 60px;
+      max-width: 90px;
+      height: 51px;
+      /* height: 25px; */
+      aspect-ratio: 16/9;
+      /* height: 60px; */
 
       text-align: center;
     }
@@ -112,10 +119,6 @@ const InfoSection = styled.div`
     background-color: #ffff;
     border: none;
     cursor: pointer;
-
-    &:hover {
-      background-color: rgba(6, 148, 42, 0.2);
-    }
   }
 
   @media (min-width: 576px) {
@@ -126,6 +129,10 @@ const InfoSection = styled.div`
       height: 29px;
       border-radius: 30px;
       font-size: 12px;
+
+      &:hover {
+        background-color: rgba(6, 148, 42, 0.2);
+      }
     }
   }
 `;

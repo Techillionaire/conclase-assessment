@@ -79,7 +79,7 @@ const BannerWrapper = styled.div`
     background-image: url(${bannerImg});
 
     h1 {
-      font-size: 48px;
+      font-size: 32px;
       font-weight: 700;
       color: #ffffff;
       line-height: 72px;

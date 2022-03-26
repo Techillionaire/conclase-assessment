@@ -77,7 +77,7 @@ const Section = styled.section`
     color: #9b9b9b;
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: 860px) {
     img {
       margin-bottom: 0;
       width: 346px;

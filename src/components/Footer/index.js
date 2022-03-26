@@ -90,7 +90,7 @@ const FooterWrapper = styled.footer`
   justify-content: space-between;
   border-top: 1px solid #e5e5e5;
 
-  @media (min-width: 576px) {
+  @media (min-width: 900px) {
     flex-direction: row;
   }
 `;

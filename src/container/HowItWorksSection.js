@@ -90,9 +90,11 @@ const Section = styled.section`
     margin-bottom: 18px;
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: 800px) {
     flex-direction: row;
+  }
 
+  @media (min-width: 1080px) {
     img {
       width: 600px;
       height: 800px;

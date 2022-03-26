@@ -36,9 +36,9 @@ export default Navbar;
 const Wrapper = styled.nav`
   background-color: #ffffff;
   margin-top: 8px;
-  width: 100vw;
+  width: 100%;
   height: 68px;
-  padding: 0 8px;
+  padding: 0 12px;
   position: sticky;
   top: 0;
   display: flex;
@@ -48,7 +48,6 @@ const Wrapper = styled.nav`
   .assessment {
     display: block;
     color: #3f403f;
-    padding-right: 32px;
   }
 
   .logo {
@@ -60,7 +59,7 @@ const Wrapper = styled.nav`
     display: none;
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: 850px) {
     padding: 0 32px;
     width: 100%;
 
@@ -121,7 +120,7 @@ const Wrapper = styled.nav`
 const AuthWrapper = styled.div`
   display: none;
 
-  @media (min-width: 576px) {
+  @media (min-width: 850px) {
     display: flex;
   }
 `;

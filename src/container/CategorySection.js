@@ -97,7 +97,18 @@ const CardWrapper = styled.div`
   grid-column-gap: 8px;
   margin: 0 auto;
 
-  @media (min-width: 576px) {
+  @media (min-width: 500px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (min-width: 860px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0;
+    margin: 0;
+    grid-row-gap: 48px;
+  }
+
+  @media (min-width: 1290px) {
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 24px;
   }

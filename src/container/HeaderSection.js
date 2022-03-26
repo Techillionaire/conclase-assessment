@@ -11,9 +11,9 @@ import SearchBar from "../components/Search/index";
 const Logos = () => {
   return (
     <LogosWrapper>
-      <img src={Paystack} />
-      <img src={Google} />
-      <img src={Kpmg} />
+      <img src={Paystack} alt="paystack" />
+      <img src={Google} alt="google" />
+      <img src={Kpmg} alt="kpmg" />
     </LogosWrapper>
   );
 };
@@ -89,13 +89,41 @@ const Section = styled.section`
     display: none;
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: 1070px) {
+    background: url(${Background});
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .details {
+      width: 50%;
+    }
+
+    .image-container {
+      width: 50%;
+      display: grid;
+      place-items: end;
+
+      svg {
+        width: 450px;
+        height: 564px;
+      }
+    }
+  }
+
+  @media (min-width: 1260px) {
     padding: 0 32px;
     margin-bottom: 140px;
     height: 700px;
     justify-content: space-between;
     width: 100%;
-    background: url(${Background});
+
+    .image-container {
+      width: 40%;
+      svg {
+        height: auto;
+        width: auto;
+      }
+    }
 
     .details {
       width: 60%;
@@ -119,11 +147,6 @@ const Section = styled.section`
         }
       }
     }
-    .image-container {
-      width: 40%;
-      display: grid;
-      place-items: center;
-    }
   }
 `;
 
@@ -134,8 +157,9 @@ const LogosWrapper = styled.div`
   margin: auto 0;
 
   img {
-    max-width: 108px;
-    height: 32px;
+    max-width: 85px;
+    height: 25px;
+    aspect-ratio: 17/5;
     margin-right: 24px;
     opacity: 0.5;
 
@@ -145,7 +169,9 @@ const LogosWrapper = styled.div`
 
   @media (min-width: 576px) {
     img {
-      height: 33px;
+      max-width: 108px;
+      height: 32px;
+      aspect-ratio: 27/8;
       margin-right: 24px;
     }
   }

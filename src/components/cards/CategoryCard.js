@@ -53,7 +53,12 @@ const Wrapper = styled.div`
     color: #9b9b9b;
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: 860px) {
+    width: 210px;
+    height: 210px;
+  }
+
+  @media (min-width: 950px) {
     width: 296px;
     height: 275px;
 
