@@ -36,7 +36,7 @@ export default Navbar;
 const Wrapper = styled.nav`
   background-color: #ffffff;
   margin-top: 8px;
-  width: 100%;
+  width: 100vw;
   height: 68px;
   padding: 0 8px;
   position: sticky;
