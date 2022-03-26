@@ -34,6 +34,7 @@ const TodosPage = () => {
             onChange={formik.handleChange}
             value={formik.values.task}
             style={formik.errors.task ? { border: "solid 1px red" } : null}
+            required
           />
         </label>
         <label>
@@ -86,17 +87,6 @@ const Wrapper = styled.div`
     margin: 32px 0;
   }
 
-  .logo-wrapper {
-    display: flex;
-    margin-bottom: 32px;
-    padding-top: 32px;
-  }
-
-  .logo {
-    font-size: 20px;
-    padding-right: 14px;
-  }
-
   form {
     /* padding-left: 20px; */
     height: auto;
@@ -133,7 +123,7 @@ const Wrapper = styled.div`
 
   input[type="date"] {
     /* opacity: 0.5; */
-
+    padding-right: 16px;
     background: #dfdfdf;
   }
 

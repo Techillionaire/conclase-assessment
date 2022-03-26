@@ -79,21 +79,25 @@ const Section = styled.section`
     text-align: center;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
 
   @media (min-width: 576px) {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 32px;
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 64px;
+    }
   }
 `;
 
 const CardWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 2px;
+  grid-row-gap: 8px;
+  grid-column-gap: 8px;
+  margin: 0 auto;
 
   @media (min-width: 576px) {
     grid-template-columns: repeat(4, 1fr);

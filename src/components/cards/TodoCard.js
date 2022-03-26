@@ -69,22 +69,14 @@ const CardWrapper = styled.div`
   border-radius: 7px;
   display: flex;
   margin-bottom: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
   .colored-block {
     width: 8px;
     height: 100%;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-  }
-
-  .blue {
-    background-color: var(--blue);
-  }
-  .green {
-    background-color: var(--green);
-  }
-  .purple {
-    background-color: var(--purple);
   }
 
   .content {
@@ -117,6 +109,6 @@ const CardWrapper = styled.div`
 
   .content-details p {
     font-size: 12px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
   }
 `;
