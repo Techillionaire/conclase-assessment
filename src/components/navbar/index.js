@@ -48,7 +48,7 @@ const Wrapper = styled.nav`
   .assessment {
     display: block;
     color: #3f403f;
-    padding-right: 8px;
+    padding-right: 32px;
   }
 
   .logo {
