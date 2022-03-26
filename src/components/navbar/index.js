@@ -14,7 +14,7 @@ const Navbar = () => {
         <li>Companies</li>
         <li>Candidates</li>
         <Link to={"todos"}>
-          <li>Assessment</li>
+          <li className="todolink">Assessment</li>
         </Link>
         <li>Post a Job</li>
         <li>Career Advice</li>
@@ -70,20 +70,26 @@ const Wrapper = styled.nav`
     .assessment {
       display: none;
     }
+
+    .todolink {
+      font-weight: 700;
+      color: #06942a;
+
+      cursor: pointer;
+
+      &:hover {
+        color: #06942a;
+      }
+    }
     ul {
       display: flex;
       list-style: none;
-      font-size: 16px;
-      font-weight: 400;
+      /* font-size: 14px; */
+      font-family: "Inter", sans-serif;
 
       li {
         margin-right: 4px;
         padding: 8px;
-        cursor: pointer;
-
-        &:hover {
-          color: #06942a;
-        }
       }
       a {
         text-decoration: none;

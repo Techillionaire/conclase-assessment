@@ -1,5 +1,6 @@
 ## Responsiveness
  - Desktop
+ - Tablet
  - Mobile
  
  
