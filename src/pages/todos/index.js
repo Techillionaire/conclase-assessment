@@ -39,7 +39,7 @@ const TodosPage = () => {
         <label>
           <p> Date & Time</p>
           <input
-            type="datetime-local"
+            type="date"
             id="date"
             className="datetime-input"
             onChange={formik.handleChange}
@@ -97,11 +97,11 @@ const Wrapper = styled.div`
     padding-right: 14px;
   }
 
-  .form-wrapper {
-    padding-left: 20px;
+  form {
+    /* padding-left: 20px; */
     height: auto;
-    border-radius: 7px;
-    background-color: white;
+    /* border-radius: 7px; */
+    /* background-color: white; */
     padding-bottom: 32px;
     margin-bottom: 42px;
     width: 100%;
@@ -113,8 +113,8 @@ const Wrapper = styled.div`
     margin-bottom: 16px;
   }
   label input {
-    width: 90%;
-    height: 38px;
+    width: 100%;
+    height: 50px;
     background-color: #edeff2;
     border-radius: 12px;
     padding-left: 12px;
@@ -131,8 +131,9 @@ const Wrapper = styled.div`
     opacity: 0.5;
   }
 
-  input[type="datetime-local"] {
-    opacity: 0.5;
+  input[type="date"] {
+    /* opacity: 0.5; */
+
     background: #dfdfdf;
   }
 
@@ -148,7 +149,7 @@ const Wrapper = styled.div`
   }
 
   .submit-btn {
-    width: 85%;
+    width: 100%;
     height: 50px;
     border-radius: 8px;
     background-color: #06942a;

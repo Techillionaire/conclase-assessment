@@ -11,7 +11,11 @@ const Layout = () => {
         <Navbar />
         <main>
           <Suspense
-            fallback={<p style={{ textAlign: "center" }}>Loading...</p>}
+            fallback={
+              <p style={{ textAlign: "center", marginTop: "32px" }}>
+                Loading...
+              </p>
+            }
           >
             <Outlet />
           </Suspense>

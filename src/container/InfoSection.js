@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import groupedIcon from "../assets/icons/icongroup.svg";
+import groupedIcon from "../assets/images/icongroup.png";
+import groupedIconwebp from "../assets/images/icongroup.webp";
 import { ReactComponent as Arrow } from "../assets/icons/right.svg";
 import linkbg from "../assets/icons/link-bg.svg";
 
@@ -25,7 +26,10 @@ const InfoSection = () => {
         </div>
       </div>
       <div className="image">
-        <img src={groupedIcon} />
+        <picture>
+          <source srcSet={groupedIconwebp} type="image/webp" />
+          <img src={groupedIcon} />
+        </picture>
       </div>
     </Section>
   );

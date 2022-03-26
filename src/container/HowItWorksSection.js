@@ -1,5 +1,6 @@
 import React from "react";
 import GroupImage from "../assets/images/groupimages.svg";
+import GroupImageWebp from "../assets/images/groupimagess.webp";
 import { ReactComponent as Check } from "../assets/icons/check.svg";
 import styled from "styled-components";
 
@@ -7,7 +8,10 @@ const HowItWorksSection = () => {
   return (
     <Section>
       <div>
-        <img src={GroupImage} />
+        <picture>
+          <source srcSet={GroupImageWebp} type="image/webp" />
+          <img src={GroupImage} />
+        </picture>
       </div>
       <div className="details">
         <h1 className="title">How it works</h1>
