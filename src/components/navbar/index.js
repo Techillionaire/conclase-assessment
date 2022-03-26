@@ -42,7 +42,7 @@ const Wrapper = styled.nav`
   position: sticky;
   top: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   .assessment {
