@@ -19,7 +19,6 @@ const Wrapper = styled.div`
   width: 110px;
   height: 110px;
   border-radius: 10px;
-  border: 1px solid #e5e5e5;
   padding: 4px;
 
   display: grid;
@@ -56,6 +55,7 @@ const Wrapper = styled.div`
   @media (min-width: 860px) {
     width: 210px;
     height: 210px;
+    border: 1px solid #e5e5e5;
   }
 
   @media (min-width: 950px) {
